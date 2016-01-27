@@ -1,0 +1,29 @@
+body {
+    color: #fff;
+    font-family: "Titillium Web",Helvetica,sans-serif;
+    background-image: url("background.png");
+    background-size:cover;
+}
+
+.logoimg {
+    cursor: pointer;
+    margin: 10px;
+}
+.errorcontent{
+    margin-top: 100px;
+}
+.errorcontent button{
+    margin-bottom: 10px;
+}
+h2{
+    line-height: 30px;
+}
+@media (min-width: 768px) { 
+    .errorcontent{
+        margin-top: 200px;
+    }
+}
+.ecLogo{
+    float: left;
+    margin: 11.5px;
+}
